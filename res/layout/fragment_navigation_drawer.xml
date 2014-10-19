@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlNavigationDrawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true" >
+
+    <ListView
+        android:id="@+id/lvReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0333333"
+        android:layout_alignParentTop="true"
+        android:choiceMode="singleChoice"
+        android:divider="@color/light_grey"
+        android:dividerHeight="0.3dp"
+        android:layout_above="@+id/btnSendFeedBack"
+        tools:context="com.backyard.watershortage.NavigationDrawerFragment" />
+
+    <TextView
+        android:id="@+id/tvNoReminders"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_reminders"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnSendFeedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/brand_color"
+        android:text="@string/action_feedback"/>
+
+</RelativeLayout>

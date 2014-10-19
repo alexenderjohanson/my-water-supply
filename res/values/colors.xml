@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#666666</color>
+    <color name="light_grey">#AAAAAA</color>
+    <color name="dark_grey">#333333</color>
+    <color name="yellow">#FEF9C2</color>
+    <color name="purple">#6B4194</color>
+    <color name="default_background">#ecf0fd</color>
+    <color name="divider">#adaaad</color>
+    <color name="blue">#33B6EA</color>
+    <color name="red">#CC1438</color>
+    <color name="brand_color">#3BC3EE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#3CAB01</color>
+    
+</resources>

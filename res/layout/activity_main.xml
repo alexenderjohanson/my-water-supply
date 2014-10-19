@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ExpandableListView
+        android:id="@+id/elvArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="1dp"
+        android:visibility="gone" >
+    </ExpandableListView>
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:hint="@string/search_hint"
+        android:inputType="textAutoComplete|text" />
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etSearch"
+        android:text="Small Text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ListView
+        android:id="@+id/lvArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvResults" />
+
+</RelativeLayout>

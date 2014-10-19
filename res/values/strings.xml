@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MY Water Supply</string>
+    <string name="action_feedback">Send Feedback</string>
+    <string name="area_gombak">Gombak</string>
+    <string name="area_kuala_lumpur">Kuala Lumpur</string>
+    <string name="area_petaling">Petaling</string>
+    <string name="area_petaling_sepang">Petaling/Sepang</string>
+    <string name="area_klang">Klang/Shah Alam/USJ</string>
+    <string name="area_klang_new">Klang/Shah Alam/Kuala Langat/USJ</string>
+    <string name="area_kuala_selangor">Kuala Selangor</string>
+    <string name="area_hulu_selangor">Hulu Selangor</string>
+    <string name="area_hulu_langat">Hulu Langat</string>
+    <string name="area_kuala_langat">Kuala Langat/Sepang</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="instruction">Water disruption are scheduled to start at 9am. \nWater supply are scheduled to return at 4pm.</string>
+    <string name="has_water">Has Water</string>
+    <string name="no_water">No Water</string>
+    <string name="notification_big_text_24hours">Planned water shortage in 24 hours.</string>
+    <string name="notification_big_text_12hours">Planned water shortage in 12 hours.</string>
+    <string name="notification_title">Water Shortage Alert</string>
+    <string name="notification_summary">Planned water shortage at your area</string>
+    <string name="feedback_title">MY Water Supply Feedback</string>
+    <string name="feedback_email">support@backyard-tech.com.my</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Eg. Taman Bahagia</string>
+    <string name="reminder_toast">Notification will be sent 24 hours prior to water disruption.</string>
+    <string name="search_result">%d Results</string>
+    <string name="search_no_result">No Results</string>
+    <string name="common_reminder">Reminder</string>
+    <string name="common_new">New</string>
+    <string name="reminder_set">Reminder Set</string>
+    <string name="number_of_results">%d Results</string>
+    <string name="number_of_result">%d Result</string>
+    <string name="today">(Today)</string>
+    <string name="today2">Today:</string>
+    <string name="title_activity_areas">My Water Supply</string>
+    <string name="title_my_reminders">My Reminders</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_reminders">No reminders found. \nPlease search for your area to and set the reminder to get quicker access to your area\'s schedule</string>
+
+</resources>

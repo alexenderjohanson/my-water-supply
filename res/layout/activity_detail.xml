@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rlDetailHeader"
+        android:layout_width="fill_parent"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvTaman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Large Text"
+            android:textColor="@color/blue"
+            android:layout_toLeftOf="@+id/cbNotification"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvTaman"
+            android:textColor="@color/dark_grey"
+            android:text="@string/instruction"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <CheckBox
+            android:id="@+id/cbNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/common_reminder" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvWaterShortage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rlDetailHeader"
+        android:divider="@null" >
+    </ListView>
+
+</RelativeLayout>
